@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sample</title>
+</head>
+<body>
+	<h2>Currency Convertor</h2>
+	<form>
+	<input id="origin" type="number" name="source" placeholder="Enter your number" required>
+	<br>
+	<label for="source">Source Currency</label>
+	<select class="sourceClass" name="srcCur" id="source" required>
+		<option value="" selected disabled>Please Select a Source currency</option>
+	</select>
+	<br>
+	<label for="dest">Destination Currency</label>
+	<select class="DestClass" name="desCur" id="dest" required>
+		<option value="" selected disabled>Please select a Destination currency</option>
+	</select>
+	<br>
+	<input type="submit" name="sub" value="Convert your value">
+	</form>
+	<h3 id="h3" style="display: none">Loading...</h3><br><br>
+	<strong><span id="result"></span></strong>
+<script type="text/javascript" src="https://code.jquery.com/jquery-git.js"></script>
+<script type="text/javascript" src="sample.js"></script>
+</body>
+</html>
